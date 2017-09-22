@@ -1,5 +1,8 @@
 # HomeHork
 
-I'll delete it
 
-Here is my Homeasdfwokr (if somebody didn't get it) 
+Here is my homework (if somebody didn't get it) 
+
+I'm a student of MIPT
+
+
