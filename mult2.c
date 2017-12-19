@@ -6,13 +6,10 @@
 #include <string.h>
 #include <unistd.h>
 
-//#define NTHREADS 10
-pthread_mutex_t mutex1 = PTHREAD_MUTEX_INITIALIZER;
-void *thread_function(void *dP);
-
-#define ARG 6
+#define ARG 2
 #define printi(x) printf("%d\n\n", x)
 
+//Оно заработало. Датает ускорение как раз в два раза. 
 
 typedef struct matr
 {
@@ -42,6 +39,7 @@ void show_matrix (matrix M, char *name);
 
 int scal_mult (int *a, int *b, int n);
 
+void *thread_function(void *dP);
 
 int main (int argc, char **argv)
 {
